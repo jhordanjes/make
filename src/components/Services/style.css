@@ -1,0 +1,43 @@
+/*****************
+ITEM DOS SERVICES
+******************/
+.alice-carousel__dots li{
+    width: 10px;
+    height: 10px;
+}
+
+.media{
+    height: 360px;
+}
+
+.cxDados{
+    padding-top: 29px;
+    padding-bottom: 29px;
+    background: #d1c4e9;
+    margin-top: -15px;
+}
+
+/*****************
+ SERVICES
+******************/
+
+.services h5{
+    font-weight: bold;
+}
+
+.services p{
+    font-weight: bold;
+}
+
+.services{
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 20px;
+    margin-top: 25px;
+}
+
+@media only screen and (max-width: 991px){
+    .services{
+        padding: 5px;
+    }
+}

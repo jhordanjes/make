@@ -1,0 +1,41 @@
+.banner{
+    background: #000 url('../../assets/img/fundo.png') no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 660px;
+    width: 100%;
+}
+
+.banner-text{
+    position: absolute;
+    z-index: 1;
+    top: 350px;
+    left: 50px;
+    color: #fff;
+    animation: move 0.9s;
+	animation-delay: 750ms;
+}
+
+@keyframes fade {
+	from {
+		opacity: 0;
+		transform: scale(0.9);
+
+	}
+	to {
+		opacity: 1;
+		transform: scale(1);
+	}
+}
+
+@keyframes move {
+	from {
+		opacity: 0;
+		transform: translateX(-50%);
+
+	}
+	to {
+		opacity: 1;
+		transform: translateX(0%);
+	}
+}

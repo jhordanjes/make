@@ -1,0 +1,25 @@
+.box .content a
+{
+	position: relative;
+	margin: 20px 0 0;
+	padding: 10px 20px;
+	text-decoration: none;
+	border: 1px solid #000;
+	display: inline-block;
+	color: #000;
+	transition: 0.5s;
+	transform: translateY(-40px);
+	opacity: 0;
+	visibility: hidden;
+}
+.box:hover .content a
+{
+	transform: translateY(0);
+	opacity: 1;
+    visibility: visible;
+}
+.box .content a:hover
+{
+	color: #000;
+	background: #212121;
+}

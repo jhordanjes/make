@@ -1,22 +1,45 @@
-.App {
-  text-align: center;
+body{
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
-.App-logo {
-  height: 40vmin;
+::selection{
+	background: #f48fb1;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.menu_cll{
+  display: none;
 }
 
-.App-link {
-  color: #09d3ac;
+h6, h5{
+	font-weight: bold;
+}
+
+@media only screen and (max-width: 991px){
+  .menu{
+    display: none;
+  }
+
+  .menu_cll{
+    display: block;
+  }
+}
+
+.logo-nome{
+	display: inline-block; 
+	color: #e91e63; 
+	text-shadow: -2px -1px #000; 
+	font-size: 35px; 
+	font-family: 'Poiret One', cursive;
+}
+
+.logo-sub{
+	position: relative;
+	display: inline-block; 
+	top: 20px; 
+	right: 75px; 
+	color: #000;
+	text-shadow: 1px 1px #000; 
+	font-size: 15px; 	
 }

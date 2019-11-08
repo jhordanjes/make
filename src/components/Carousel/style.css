@@ -1,0 +1,33 @@
+.item{
+    width: 100%;
+    height: 660px;
+}
+
+.item img{
+    height: 100%;
+    width: 100%;
+}
+
+.carousel .alice-carousel__dots{
+    margin-top: -40px;
+    position: relative;
+}
+
+.carousel .alice-carousel__dots li{
+    width: 15px;
+    height: 15px;
+}
+
+
+
+@media only screen and (max-width: 575px){
+    .item{
+        height: 50px;
+    }
+}
+
+@media only screen and (max-width: 960px){
+    .item{
+        height: 350px;
+    }
+}
