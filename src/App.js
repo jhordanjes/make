@@ -4,7 +4,7 @@ import './App.css';
 import Dashboard from './components/Dashboard/dashboard'
 import Menu from './components/Menu/menu'
 import Banner from './components/Banner/banner'
-
+//import Read from './components/Course/about'
 import Services from './components/Services/carousel'
 import About from './components/About/about'
 import Course from './components/Course/course'
@@ -19,7 +19,7 @@ function App() {
         <Dashboard />
         <Menu />
         <Banner />
-        
+       
         <Services />
         <About />
         <Course />

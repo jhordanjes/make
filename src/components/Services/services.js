@@ -3,7 +3,8 @@ import './style.css'
 
 import  { Typography, CardMedia, makeStyles } from '@material-ui/core'
 
-import makeProfi from '../../assets/img/design-henna.png'
+import img1 from '../../assets/img/design-henna.png'
+import img2 from '../../assets/img/curso-make.png'
 
 const useStyles = makeStyles({
   cxservices:{
@@ -11,8 +12,18 @@ const useStyles = makeStyles({
     '&:hover':{
       boxShadow: '0px 0px 46px rgba(0,0,0,0.4)',
       padding: 0,
-    }
-  }
+    },
+    
+  },
+  cxdados: {
+    paddingTop: 29,
+    paddingBottom: 29,
+    background: 'linear-gradient(to bottom right, #d1c4e9, #f8bbd0)',
+    marginTop: '-15px',
+  },
+  media:{
+    height: 360,
+  },
 })
 
 export default function Services(){
@@ -21,16 +32,16 @@ export default function Services(){
     return(
         <div className={classes.cxservices}>
             <CardMedia
-                className="media"
-                image={makeProfi}
+                className={classes.media}
+                image={img1}
                 title="Maquiagem Profissional"
             />
 
-            <div className="cxDados">
+            <div className={classes.cxdados}>
                 <Typography variant="body1" align="center" color="textPrimary">
                   Maquiagem Profissional
                 </Typography>
-                <Typography variant="subtitle2" align="center" color="textPrimary">
+                <Typography variant="subtitle1" align="center" color="textPrimary">
                   R$ 60,00
                 </Typography>
               </div>                   

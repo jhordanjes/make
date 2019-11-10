@@ -8,12 +8,18 @@ body{
 	background: #f48fb1;
 }
 
-.menu_cll{
-  display: none;
+.title::after{
+    background-color:#f06292;
+    content:'';
+    display:block;
+    height:2px;
+    margin-top:10px;
+    position:relative;
+    width:20px
 }
 
-h6, h5{
-	font-weight: bold;
+.menu_cll{
+  display: none;
 }
 
 @media only screen and (max-width: 991px){

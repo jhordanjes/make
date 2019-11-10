@@ -38,7 +38,7 @@ const useStyles = makeStyles({
     }
   },
   paperAnchorLeft:{
-   
+    opacity: '0.8',
     boxShadow: '0px 0px 0px 0px',
   },
   sizemenu: {
@@ -54,13 +54,13 @@ export default function Menu() {
     
   });
 
-  const handleChange = event => { 
-    if (document.documentElement.scrollTop > 430) {
-       this.setSColor({
-         className: 'white'
-       })
-     } 
-   }
+
+
+   if(document.documentElement.scrollTop > 430)
+    {
+    document.getElementById('resolucao').className = 'dois';
+    }
+
 
   
   const toggleDrawer = (side, open) => event => {
@@ -106,7 +106,7 @@ export default function Menu() {
 
 
     <div className="menu_cll">
-      <AppBar  color="default" position="fixed" classes={{
+      <AppBar  id="resolucao" color="default" position="fixed" classes={{
         colorDefault: classes.transparent
       }}>
         <Toolbar className={classes.sizemenu}>

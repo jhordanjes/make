@@ -37,7 +37,8 @@ export default function Contact(){
             <Grid container spacing={5}>
 
                 <Grid item md={4} className="cx-footer">
-                    <Typography variant="body2"> <LocationOnIcon fontSize="inherit" /> Descubra a diferença de ser um cliente JJ Studio e deixe os resultados te surpreender.</Typography>
+                    <Typography variant="body2"> Descubra a diferença de ser um cliente JJ Studio e deixe os resultados te surpreender.</Typography>
+                    <Typography variant="body2" className={classes.espaco}> <LocationOnIcon fontSize="inherit" /> Rua Largo do Prata, 175</Typography>
                     <Typography variant="body2" className={classes.espaco}> <EmailIcon fontSize="inherit" /> jhordanjes@gmail.com</Typography>
                     <Typography variant="body2" className={classes.espaco}> <PhoneIcon fontSize="inherit" /> (92) 98410-9787</Typography>
                 </Grid>

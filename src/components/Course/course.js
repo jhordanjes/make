@@ -13,8 +13,7 @@ import { Grid, Typography, CardMedia, Button, makeStyles } from "@material-ui/co
 const useStyles = makeStyles({
     course:{
         padding: 50,
-        '& h1, h5, h6':{
-            fontWeight: "bold",
+        '& h6':{
             transition: '0.5s',
         },
      
@@ -70,7 +69,7 @@ export default function Course(){
         <div className={classes.course}>
             <Grid container alignContent="center" spacing={2}>
                 <Grid item xs={12}>
-                    <Typography variant="h5" align="center">
+                    <Typography variant="h5" align="center" >
                         NOSSOS CURSOS
                     </Typography>
                 </Grid>
